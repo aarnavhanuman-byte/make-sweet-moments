@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make Sweet Moments</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><div class="brand">❤ Make Sweet Moments</div><nav><a href="#home">Home</a><a href="#family">Family</a><a href="#gallery">Gallery</a><a href="#trips">Trips</a><a href="#quiz">Quiz</a><a href="#calendar">Calendar</a></nav><div><button id="lang">తెలుగు</button><button id="login">Login</button></div></header>
+  <main>
+    <section id="home" class="hero"><div><span class="pill">Family memories, together</span><h1>Make Sweet Moments</h1><p>A private family space to share photos, plan trips, vote on decisions, call each other, and celebrate every moment.</p><button class="primary" onclick="document.querySelector('#gallery').scrollIntoView()">Explore memories</button></div><div class="hero-art"><div class="sun">☀</div><div class="character">◕‿◕</div><span>Our happy place</span></div></section>
+    <section id="family"><div class="section-title"><h2>Family members</h2><button class="secondary" id="addMember">+ Add member</button></div><div id="members" class="grid"></div></section>
+    <section id="gallery"><div class="section-title"><h2>Family gallery</h2><label class="secondary">+ Add photos<input id="photos" type="file" accept="image/*" multiple hidden></label></div><div id="galleryGrid" class="gallery"></div></section>
+    <section><div class="section-title"><h2>Family feed</h2><button class="secondary" id="postBtn">Post update</button></div><div id="feed" class="feed"></div></section>
+    <section id="trips"><div class="section-title"><h2>Trips & decisions</h2><button class="secondary" id="tripBtn">+ Plan trip</button></div><div id="tripsList" class="grid"></div></section>
+    <section id="calendar"><div class="section-title"><h2>Family calendar</h2><button class="secondary" id="eventBtn">+ Add event</button></div><div id="events" class="grid"></div></section>
+    <section id="quiz"><div class="section-title"><h2>Kids quiz</h2><span class="pill">GK · Math · Social · Telugu movies</span></div><div id="quizBox" class="quiz"></div></section>
+    <section><div class="section-title"><h2>Calls & location</h2><span class="pill">Consent-based sharing</span></div><div id="contacts" class="grid"></div></section>
+  </main>
+  <footer>Make Sweet Moments · Firebase-ready family website</footer>
+  <script src="app.js"></script>
+</body></html>

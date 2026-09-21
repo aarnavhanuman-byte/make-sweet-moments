@@ -1,2 +1,18 @@
-# make-sweet-moments
-Family website for trips, sharing media, voting, kids quizzes, and family coordination
+# Make Sweet Moments
+
+A static, responsive family website foundation for family memories, trips, polls, quizzes, calls, calendar events, and consent-based location sharing.
+
+## Demo login
+
+- Name: Aarav
+- Passkey: `sweetmoments123`
+
+Other demo members: Ananya / `family321`, Vikram / `uncle456`, Maa / `mom789`.
+
+## Run locally
+
+Open `index.html` in a browser, or run `python -m http.server 8000` and visit `http://localhost:8000`.
+
+## Firebase integration
+
+The current version is a frontend prototype using in-memory browser data. Connect Firebase Auth, Firestore, Storage, Cloud Messaging, and App Check before production use. Location sharing and calls should remain consent-based.\n
